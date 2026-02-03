@@ -376,6 +376,9 @@
   .s5-alvos {
     padding: 28px 0;
   }
+  .s5-alvos__frame {
+    border: 0;
+  }
   .s5-alvos__grid {
     grid-template-columns: 1fr;
     gap: 18px;
@@ -394,6 +397,10 @@
     padding: 14px 16px;
     font-size: 13px;
     line-height: 1.45;
+  }
+  .s5-alvos__rowline {
+    border-bottom: 0;
+    height: 0;
   }
   .s5-alvos__image--desktop {
     display: none;
