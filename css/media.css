@@ -84,6 +84,8 @@
   .s6-futuro { padding: 48px 0; }
   .s6-futuro__card { padding: 0 28px 0 46px; border-radius: 24px; }
   .s6-futuro__title { font-size: 32px; line-height: 1.18; }
+  .s6-futuro__title { padding-right: 28px; }
+  .s6-futuro__body { padding-right: 0; }
   .s6-futuro__text { font-size: 15px; line-height: 1.42; }
   .s6-futuro__media { flex-basis: 270px; margin-top: -62px; margin-right: -28px; }
 
@@ -200,6 +202,8 @@
   .s6-futuro__card { padding: 0 24px 0 38px; border-radius: 22px; }
   .s6-futuro__content { padding: 18px 0; }
   .s6-futuro__title { font-size: 28px; line-height: 1.16; margin-bottom: 14px; }
+  .s6-futuro__title { padding-right: 24px; }
+  .s6-futuro__body { padding-right: 0; }
   .s6-futuro__text { font-size: 14px; line-height: 1.38; }
   .s6-futuro__media { flex-basis: 250px; margin-top: -48px; margin-right: -24px; }
   .s6-futuro__image { border-radius: 22px; }
@@ -272,7 +276,7 @@
     height: auto;
     padding: 56px 22px 56px 22px;
     align-items: flex-start;
-    background-image: url("../assets/header-biomarcadores-mobile-1.png");
+    background-image: url("../assets/capa-mobile.png");
     background-position: right top;
     background-size: cover;
   }
@@ -408,12 +412,22 @@
   }
   .s6-futuro__content {
     padding: 0;
-    padding-right: clamp(110px, 34vw, 160px);
+    padding-right: 0;
     position: relative;
     z-index: 2;
   }
-  .s6-futuro__title { font-size: 28px; line-height: 1.22; margin-bottom: 14px; }
-  .s6-futuro__text { font-size: 15.5px; line-height: 1.55; }
+  .s6-futuro__title {
+    font-size: 28px;
+    line-height: 1.22;
+    margin-bottom: 14px;
+    padding-right: clamp(110px, 34vw, 160px);
+  }
+  .s6-futuro__body { padding-right: 0; }
+  .s6-futuro__text {
+    font-size: 15.5px;
+    line-height: 1.55;
+    padding-right: clamp(10px, 34vw, 30px);
+  }
 
   .s6-futuro__media {
     position: absolute;

@@ -803,6 +803,11 @@ body {
   font-weight: 700;
   color: #1b9ad6;
   margin-bottom: 16px;
+  padding-right: 40px;
+}
+
+.s6-futuro__body {
+  padding-right: 0;
 }
 
 .s6-futuro__text {
