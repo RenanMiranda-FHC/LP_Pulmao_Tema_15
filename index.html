@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <header class="hero" role="banner">
+        <div class="hero__text">
+            <h1 class="hero__title">
+                Biomarcadores moleculares<br>
+                no câncer de pulmão
+            </h1>
+
+            <p class="hero__subtitle">
+                O papel essencial da patologia<br>
+                no diagnóstico de precisão
+            </p>
+        </div>
+    </header>
+
+    <nav class="jump" aria-label="Jump to seções">
+        <div class="jump__inner">
+            <span class="jump__label">Jump to:</span>
+
+            <div class="jump__track" id="jumpTrack">
+                <a class="jump__pill is-active" href="#prioridade-molecular">O que é prioridade molecular?</a>
+                <a class="jump__pill" href="#classificacao">A importância da classificação do câncer de pulmão</a>
+                <a class="jump__pill" href="#alvos-terapias">Alvos moleculares e terapias personalizadas</a>
+                <a class="jump__pill" href="#ngs">Sequenciamento de Nova Geração (NGS): padrão ouro</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="s1-intro" id="intro">
+        <div class="s1-intro__container">
+            <div class="s1-intro__media">
+                <img src="assets/pulmao.png" alt="Pulmões com representação molecular" />
+            </div>
+
+            <div class="s1-intro__text">
+                <p>
+                    Nos últimos anos, a medicina de <strong>precisão no câncer de pulmão evoluiu de
+                        forma impressionante.</strong> O diagnóstico e o tratamento ficaram mais complexos,
+                    mas também mais eficazes e entender a evolução desse processo se mostra parte essencial
+                    da prática diária dos profissionais envolvidos.<sup>1,2</sup>
+                </p>
+
+                <p>
+                    Esses marcadores não são usados apenas nos casos avançados. Hoje, eles já ajudam a guiar
+                    decisões terapêuticas mesmo em tumores iniciais e localizados, em contextos como a
+                    neoadjuvância, o tratamento pós-cirúrgico (adjuvância) e o perioperatório.<sup>1,2</sup>
+                    Para isso, a patologia precisa integrar dados clínicos, exames de imagem e testes moleculares,
+                    o que chamamos de abordagem “ômica”.<sup>1,2</sup>
+                </p>
+
+                <p>
+                    Além dos dados clínicos, de imagem e dos detalhes patológicos e de estadiamento, as ferramentas
+                    preditivas “Omics” desempenham um papel fundamental na condução personalizada do tratamento,
+                    permitindo uma abordagem única e integrada para cada paciente. Isso garante uma medicina de
+                    precisão mais eficaz e direcionada ao perfil individual de cada paciente.<sup>1,2</sup>
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="s2-prioridade" id="prioridade-molecular">
+        <div class="s2-prioridade__container">
+            <h2 class="s2-prioridade__title">
+                O que é prioridade molecular?
+            </h2>
+
+            <p class="s2-prioridade__text">
+                Alguns centros têm adotado o conceito de “prioridade molecular”.<sup>2</sup>
+                Isso significa seguir à risca os cuidados com a amostra, desde o momento da
+                biópsia até o exame. A amostra precisa ser fixada de forma adequada, analisada
+                com economia de tecido e rapidamente enviada para testes moleculares e
+                sequenciamento.<sup>3</sup> Tudo isso precisa ser coordenado pelo patologista
+                para que o laudo final esteja pronto em até 10 dias.<sup>2,3</sup>
+            </p>
+        </div>
+    </section>
+
+
+    <section class="s3-flow" id="fluxo">
+        <div class="s3-flow__container">
+            <div class="s3-flow__diagram">
+                <img class="s3-flow__image s3-flow__image--desktop" src="assets/secao-3.png"
+                    alt="Representacao topografica do fluxo de processamento de amostras" />
+                <img class="s3-flow__image s3-flow__image--mobile" src="assets/secao-3-mobile.png"
+                    alt="Fluxo de processamento de amostras no mobile" />
+            </div>
+            <p class="s3-flow__ref">Elaborado a partir de Aisner DL, et al. 2016<sup>3</sup>.</p>
+        </div>
+    </section>
+
+
+    <section class="s4-classificacao" id="classificacao">
+        <div class="s4-classificacao__container">
+            <h2 class="s4-classificacao__title">
+                A importância da classificação do câncer de pulmão<sup>3</sup>
+            </h2>
+
+            <div class="s4-classificacao__layout">
+
+                <div class="s4-classificacao__stats" aria-label="Distribuição por tipo">
+                    <article class="s4-stat">
+                        <div class="s4-stat__value">55%</div>
+                        <div class="s4-stat__label">Adenocarcinoma<sup>4</sup></div>
+                    </article>
+
+                    <article class="s4-stat">
+                        <div class="s4-stat__value">34%</div>
+                        <div class="s4-stat__label">Carcinoma<br>escamoso<sup>4</sup></div>
+                    </article>
+
+                    <article class="s4-stat">
+                        <div class="s4-stat__value">11%</div>
+                        <div class="s4-stat__label">Outros<sup>4</sup></div>
+                    </article>
+                </div>
+
+
+                <div class="s4-classificacao__panel">
+                    <p>
+                        Antes, o câncer de pulmão não pequenas células (CPNPC) era visto como uma doença única.
+                        Hoje, sabemos que ele pode ter diferentes tipos, como adenocarcinoma (55%), carcinoma
+                        escamoso (34%) e outros (11%),<sup>4</sup> e cada um exige uma abordagem diferente.
+                    </p>
+
+                    <p>
+                        A <strong>subtipagem histológica</strong> é fundamental no diagnóstico de câncer de pulmão e o
+                        papel do
+                        patologista vai além do exame microscópico. Ele deve integrar a morfologia, a imuno-histoquímica
+                        e as análises moleculares, tornando a patologia um elemento central no diagnóstico de
+                        precisão.<sup>3–5</sup>
+                    </p>
+
+                    <p>
+                        Começa a tomar notoriedade o “patologista de próxima geração”, exercendo papel pivotal na
+                        interação da patologia clássica, digital e integrativa, a chamada patologia
+                        computacional.<sup>3–6</sup>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="s5-alvos" id="alvos-terapias">
+        <div class="s5-alvos__container">
+            <div class="s5-alvos__frame">
+
+                <div class="s5-alvos__grid">
+
+                    <div class="s5-alvos__content">
+                        <h2 class="s5-alvos__title">Alvos moleculares e<br>terapias personalizadas</h2>
+
+                        <p class="s5-alvos__p">
+                            Hoje está cada vez mais estabelecido que, independentemente da histologia, o CPNPC
+                            diagnosticado deve seguir com a testagem molecular de acordo com o seu estadiamento
+                            clínico.<sup>2</sup> Mesmo em tumores ressecáveis, testagens moleculares são fundamentais
+                            para a escolha de tratamentos adjuvantes.<sup>2</sup>
+                        </p>
+
+                        <p class="s5-alvos__p">
+                            A medicina personalizada no CPNPC começou com os tumores com mutações no gene EGFR,
+                            especialmente L858R e as deleções no éxon 19, tratados com inibidores de tirosina-quinase
+                            (TKIs). Atualmente, já temos mais de 10 alvos moleculares com alvos terapêuticos na doença
+                            avançada: EGFR, ALK, ROS1, BRAF, KRAS G12C, MET, RET, NTRK1/2/3 e ERBB2 (HER2).<sup>2</sup>
+                        </p>
+                    </div>
+
+
+                    <div class="s5-alvos__viz">
+                        <img class="s5-alvos__image s5-alvos__image--desktop" src="assets/Camada-1.png"
+                            alt="Biomarcadores e abordagens de testagem" />
+                        <img class="s5-alvos__image s5-alvos__image--mobile" src="assets/Camada-1-mobile.png"
+                            alt="Biomarcadores atuais e implementacao regional de NGS" />
+                        <img class="s5-alvos__image s5-alvos__image--mobile" src="assets/camada-2-mobile.png"
+                            alt="Biomarcadores emergentes e abordagens de testagem" />
+                    </div>
+                </div>
+
+                <div class="s5-alvos__rowline" aria-hidden="true"></div>
+                <div class="s5-alvos__foot">
+                    <p>
+                        Todos esses potenciais <em>drivers</em> fazem parte de um painel de biomarcadores moleculares
+                        que
+                        são recomendados a serem testados ao diagnóstico na doença avançada, em conjunto com a pesquisa
+                        de expressão de PD-L1 por IHQ. De preferência, deve-se seguir um fluxo de testagem molecular
+                        reflexa,
+                        ou seja, encaminhar a amostra para a testagem genética ao diagnóstico, permitindo acesso aos
+                        laudos
+                        com painel completo de biomarcadores preditivos à prescrição inicial.<sup>8</sup>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="s6-futuro" id="padronizacao">
+        <div class="s6-futuro__container">
+            <div class="s6-futuro__card">
+                <div class="s6-futuro__content">
+                    <h2 class="s6-futuro__title">
+                        O futuro da patologia<br>
+                        no câncer de pulmão
+                    </h2>
+
+                    <p class="s6-futuro__text">
+                        O “patologista de próxima geração” já vem exercendo papel pivotal na interação da patologia
+                        clássica, digital e integrativa, a chamada patologia computacional.<sup>5,6</sup>
+                    </p>
+
+                    <p class="s6-futuro__text">
+                        Com o avanço da inteligência artificial, da biologia espacial e da biópsia líquida, o papel do
+                        patologista vai muito além do microscópio. Ele será cada vez mais o elo entre o diagnóstico
+                        e o tratamento personalizado, analisando dados em tempo real e colaborando com toda a equipe
+                        para decisões terapêuticas cada vez mais precisas.<sup>23,24</sup>
+                    </p>
+                </div>
+
+                <div class="s6-futuro__media">
+                    <img class="s6-futuro__image" src="assets/microscopio.png" alt="Microscópio" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="s7-accordion" id="ngs">
+        <div class="s7-accordion__container">
+
+            <div class="s7-accordion__card">
+                <details class="s7-item" open>
+                    <summary class="s7-item__summary">
+                        <span class="s7-item__title">Sequenciamento de Nova Geração (NGS)</span>
+                        <span class="s7-item__chev" aria-hidden="true"></span>
+                    </summary>
+
+                    <div class="s7-item__content">
+                        <div class="s7-ngs-grid">
+                            <article class="s7-ngs-card">
+                                <img class="s7-ngs-card__icon" src="assets/icons/ngs_1.svg" alt="" aria-hidden="true" />
+                                <div class="s7-ngs-card__rule" aria-hidden="true"></div>
+                                <p class="s7-ngs-card__text">
+                                    Com tantos genes para investigar e pouco tecido disponível, o uso do
+                                    sequenciamento de nova geração (NGS) se tornou padrão. Ele permite detectar
+                                    múltiplas mutações com precisão, economizando tempo e material, se consolidando em
+                                    assegurar a identificação de alvos terapêuticos.<sup>9,10</sup>
+                                </p>
+                            </article>
+
+                            <article class="s7-ngs-card">
+                                <img class="s7-ngs-card__icon" src="assets/icons/ngs_2.svg" alt="" aria-hidden="true" />
+                                <div class="s7-ngs-card__rule" aria-hidden="true"></div>
+                                <p class="s7-ngs-card__text">
+                                    Além dos alvos terapêuticos, o NGS também ajuda a identificar comutações,
+                                    sobretudo do gene KRAS, com genes como STK11, KEAP1, CDKN2A e TP53 vêm se mostrando
+                                    associadas à resistência primária à imunoterapia, sobretudo isolada, mesmo em
+                                    paciente com altos índices de expressão de PD-L1, alertando para risco de menor
+                                    benefício clínico e para a necessidade de eventuais associações terapêuticas,
+                                    especialmente quimioterápicas. Além disso, mutações em genes-alvo EGFR e ERBB2
+                                    (HER2), fusões ALK, ROS1, RET e alterações no gene MET definem subconjuntos de
+                                    CPNPC com benefício mínimo à imunoterapia.<sup>11–13</sup>
+                                </p>
+                            </article>
+
+                            <article class="s7-ngs-card">
+                                <img class="s7-ngs-card__icon" src="assets/icons/ngs_3.svg" alt="" aria-hidden="true" />
+                                <div class="s7-ngs-card__rule" aria-hidden="true"></div>
+                                <p class="s7-ngs-card__text">
+                                    Além disso, mutações em genes-alvo EGFR e ERBB2 (HER2), fusões ALK, ROS1, RET e
+                                    alterações no gene MET definem subconjuntos de CPNPC com benefício mínimo à
+                                    imunoterapia.<sup>13,14</sup> Outros genes també m vêm se mostrando papel no cenário
+                                    de resistência adquirida ao bloqueio de <em>checkpoint</em> imune, entre eles se
+                                    destacam
+                                    os genes SMARCA4, ARID1A, ARID2 e ARID1B,<sup>15</sup> em conjunto com alterações de
+                                    número de cópias (CNA).<sup>16,17</sup> Nesse crescente de moléculas a serem
+                                    testadas
+                                    na predição de resposta e/ou resistência ao sequenciamento, multiplex se torna
+                                    ainda mais imprescindível.<sup>10</sup>
+                                </p>
+                            </article>
+
+                            <article class="s7-ngs-card">
+                                <img class="s7-ngs-card__icon" src="assets/icons/ngs_4.svg" alt="" aria-hidden="true" />
+                                <div class="s7-ngs-card__rule" aria-hidden="true"></div>
+                                <p class="s7-ngs-card__text">
+                                    Um outro biomarcador ainda em processo de consolidação para a prática clínica
+                                    ampla é o TMB (<em>Tumor Mutational Burden</em>), um biomarcador que mede a carga
+                                    mutacional
+                                    tumoral. Ele é um possível preditor de resposta à imunoterapia, com linhas de
+                                    evidência mostrando que a depender do número de mutações por megabase (MB) de DNA
+                                    sequenciado, seria preditor de resposta à imunoterapia.<sup>17</sup> Contudo, o
+                                    ponto de corte ideal ainda se encontra em definição. Trabalho pivotal indicou o
+                                    <em>cutoff</em> de TMB≥10 mutações/MB.<sup>18</sup> Evidências mais recentes mostram
+                                    benefícios na adoção de um ponto de corte de até 20 mutações/MB.<sup>17–19</sup>
+                                </p>
+                            </article>
+                        </div>
+                    </div>
+                </details>
+
+                <div class="s7-divider" aria-hidden="true"></div>
+
+                <details class="s7-item">
+                    <summary class="s7-item__summary">
+                        <span class="s7-item__title">Evolução e resistência em tumores EGFR</span>
+                        <span class="s7-item__chev" aria-hidden="true"></span>
+                    </summary>
+
+                    <div class="s7-item__content">
+                        <div class="s7-egfr">
+                            <div class="s7-egfr__lead">
+                                Mesmo após usar terapias-alvo, muitos tumores acabam progredindo. Um exemplo é a
+                                mutação T790M, que surge após o uso de TKIs de primeira ou segunda geração para
+                                tratamento de tumores avançados EGFR mutados e pode ser detectada por biópsia
+                                líquida.<sup>20,21</sup>
+                            </div>
+
+                            <div class="s7-egfr__panel">
+                                <img class="s7-egfr__image" src="assets/tumor.png" alt="Imagem ilustrativa de tumor" />
+
+                                <div class="s7-egfr__text">
+                                    <p>
+                                        Entretanto, mesmo diante do tratamento dos tumores EGFR mutados com TKI de
+                                        terceira
+                                        geração, outros mecanismos e genes levam ao desenvolvimento de resistência e
+                                        progressão ocorre em algum momento.
+                                    </p>
+
+                                    <p>
+                                        Entre eles <strong>se destacam a amplificação dos genes MET e ERBB2
+                                            (HER2)
+                                            mutações nos genes PIK3CA, BRAF e
+                                            KRAS, além do resíduo C797X no próprio
+                                            EGFR.
+                                            <sup>20</sup></strong> A rebiopsia no cenário de progressão (biópsia
+                                        tecidual ou líquida)
+                                        é
+                                        fundamental para detectar mecanismos de resistência, como transformação
+                                        histológica
+                                        de pequenas células ou novas mutações adquiridas (Exemplo: C797X no EGFR).
+                                    </p>
+
+                                    <p>
+                                        Novas estratégias terapêuticas vêm sendo desenvolvidas, sobretudo para os
+                                        tumores
+                                        com amplificação do MET, baseando-se na detecção da amplificação de alto número
+                                        de
+                                        cópias do gene e/ou sua superexpressão.<sup>22</sup>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </details>
+
+                <div class="s7-divider" aria-hidden="true"></div>
+
+                <details class="s7-item">
+                    <summary class="s7-item__summary">
+                        <span class="s7-item__title">E nos tumores iniciais?</span>
+                        <span class="s7-item__chev" aria-hidden="true"></span>
+                    </summary>
+
+                    <div class="s7-item__content">
+                        <div class="s7-iniciais">
+                            <p class="s7-iniciais__text">
+                                Para pacientes com tumores ressecáveis, os biomarcadores continuam sendo fundamentais.
+                                É imprescindível definir um perfil molecular mínimo (EGFR e ALK) e de PD-L1 ao
+                                diagnóstico, para definir o tratamento ideal.<sup>20</sup> Como as amostras são
+                                menores, seguir protocolos e economizar tecido é ainda mais importante, pois a
+                                qualidade da amostra (biópsia, citologia, células isoladas) impacta diretamente a
+                                sensibilidade e especificidade dos testes.<sup>2,3,18</sup>
+                            </p>
+
+                            <img class="s7-iniciais__image" src="assets/amostra.png"
+                                alt="Fluxo de amostra e testes para tumores iniciais" />
+                            <p class="s7-iniciais__ref">Adaptado de Tavora F, et al. 2023.</p>
+                        </div>
+                    </div>
+                </details>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="image-modal" id="amostraModal" aria-hidden="true">
+        <div class="image-modal__backdrop" data-modal-close></div>
+        <div class="image-modal__content" role="dialog" aria-modal="true" aria-label="Amostra ampliada">
+            <button class="image-modal__close" type="button" aria-label="Fechar" data-modal-close>×</button>
+            <img class="image-modal__img" src="assets/amostra.png"
+                alt="Fluxo de amostra e testes para tumores iniciais ampliado" />
+        </div>
+    </div>
+
+    <section class="s9-references" id="conclusao">
+        <div class="s9-references__container">
+            <p class="s9-references__title">Referências:</p>
+
+            <ol class="s9-references__list">
+                <li>Vargas AJ, Harris CC. Biomarker development in the precision medicine era: lung cancer as a case
+                    study. Nat Rev Cancer. 2016;16(8):525-37.</li>
+                <li>Lindeman NI, et al. Updated Molecular Testing Guideline for the Selection of Lung Cancer Patients
+                    for Treatment With Targeted Tyrosine Kinase Inhibitors: Guideline From the College of American
+                    Pathologists, the International Association for the Study of Lung Cancer, and the Association for
+                    Molecular Pathology. J Thorac Oncol. 2018;13(3):323-358.</li>
+                <li>Aisner DL, et al. Do More With Less: Tips and Techniques for Maximizing Small Biopsy and Cytology
+                    Specimens for Molecular and Ancillary Testing: The University of Colorado Experience. Arch Pathol
+                    Lab Med. 2016;140(11):1206-1220.</li>
+                <li>Li T, et al. Genotyping and genomic profiling of non-small-cell lung cancer: implications for
+                    current and future therapies. J Clin Oncol. 2013;31(8):1039-49.</li>
+                <li>Beretta C, et al. The role of digital and integrative pathology for the detection of translocations:
+                    a narrative review. Precision Cancer Medicine. 2022;5:16.</li>
+                <li>Matias-Guiu X, et al. The leading role of pathology in assessing the somatic molecular alterations
+                    of cancer: Position Paper of the European Society of Pathology. Virchows Arch. 2020;476(4):491-497.
+                </li>
+                <li>de Jager VD, et al. Future perspective for the application of predictive biomarker testing in
+                    advanced stage non-small cell lung cancer. Lancet Reg Health Eur. 2024;38:100839.</li>
+                <li>Gregg JP, et al. Molecular testing strategies in non-small cell lung cancer: optimizing the
+                    diagnostic journey. Transl Lung Cancer Res. 2019;8(3):286-301.</li>
+                <li>Gagan J, et al. Next-generation sequencing to guide cancer therapy. Genome Med. 2015;7(1):80.</li>
+                <li>Penault-Llorca F, et al. Expert opinion on NSCLC small specimen biomarker testing - Part 1: Tissue
+                    collection and management. Virchows Arch. 2022;481(3):335-350.</li>
+                <li>Aisner DL, et al. The Impact of Smoking and TP53 Mutations in Lung Adenocarcinoma Patients with
+                    Targetable Mutations-The Lung Cancer Mutation Consortium (LCMC2). Clin Cancer Res.
+                    2018;24(5):1038-1047.</li>
+                <li>Ricciuti B, et al. Diminished Efficacy of Programmed Death-(Ligand)1 Inhibition in STK11- and
+                    KEAP1-Mutant Lung Adenocarcinoma Is Affected by KRAS Mutation Status. J Thorac Oncol.
+                    2022;17(3):399-410.</li>
+                <li>Negrao MV, et al. Comutations and KRASG12C Inhibitor Efficacy in Advanced NSCLC. Cancer Discov.
+                    2023;13(7):1556-1571.</li>
+                <li>Negrao MV, et al. Oncogene-specific differences in tumor mutational burden, PD-L1 expression, and
+                    outcomes from immunotherapy in non-small cell lung cancer. J Immunother Cancer. 2021;9(8):e002891.
+                </li>
+                <li>Ricciuti B, et al. Genomic and Immunophenotypic Landscape of Acquired Resistance to PD-(L)1 Blockade
+                    in Non-Small-Cell Lung Cancer. J Clin Oncol. 2024;42(11):1311-1321.</li>
+                <li>Alessi JV, et al. SMARCA4 and Other SWItch/Sucrose NonFermentable Family Genomic Alterations in
+                    NSCLC: Clinicopathologic Characteristics and Outcomes to Immune Checkpoint Inhibition. J Thorac
+                    Oncol. 2021;16(7):1176-1187.</li>
+                <li>Chan TA, et al. Development of tumor mutation burden as an immunotherapy biomarker: utility for the
+                    oncology clinic. Ann Oncol. 2019;30(1):44-56.</li>
+                <li>Tavora F, et al. Guidelines for molecular testing in non-small cell lung cancer recommendations from
+                    the Brazilian Society of Pathology. Surg Exp Pathol. 2023;6(13).</li>
+                <li>Gandara DR, et al. Tumor mutational burden and survival on immune checkpoint inhibition in &gt;8000
+                    patients across 24 cancer types. J Immunother Cancer. 2025;13(2):e010311.</li>
+                <li>NATIONAL COMPREHENSIVE CANCER NETWORK (NCCN). Everything Lung Cancer. 2025. Disponível em:
+                    https://www.nccn.org/patientresources/patient-resources/guidelines-forpatients/lung-cancer-resources.
+                    Acesso em 09/10/2025.</li>
+                <li>Rolfo C, et al. Liquid Biopsy for Advanced NSCLC: A Consensus Statement From the International
+                    Association for the Study of Lung Cancer. J Thorac Oncol. 2021;16(10):1647-1662.</li>
+                <li>Remon J, Hendriks LEL, Mountzios G, et al. MET alterations in NSCLC-current perspectives and future
+                    challenges. J Thorac Oncol. 2023;18(4):419-435.</li>
+                <li>Chen JH, et al. Spatial biology captures the effects of neoadjuvant chemo-immunotherapy in lung
+                    cancer. Nat Genet. 2025;57(1):6-8.</li>
+                <li>Shafi S, et al. Artificial intelligence in diagnostic pathology. Diagn Pathol. 2023;18(1):109.</li>
+            </ol>
+
+            <p class="s9-references__legal">
+                Este material é de propriedade exclusiva da AstraZeneca Brasil. A reprodução, distribuição ou qualquer
+                forma de uso não autorizado do conteúdo aqui apresentado é estritamente proibida. Para obter permissão,
+                entre em contato com a AstraZeneca Brasil. Todos os direitos reservados.
+                <br><br>
+                BR-43883 | Material destinado exclusivamente aos profissionais de saúde habilitados a prescrever ou
+                dispensar medicamentos. | Setembro/2025
+            </p>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
