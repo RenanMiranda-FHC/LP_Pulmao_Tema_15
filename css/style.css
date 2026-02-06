@@ -545,7 +545,7 @@ body {
 }
 
 .s7-item__content > * {
-  overflow: hidden;
+  overflow: visible;
   min-height: 0;
   padding: 16px 0 4px 0;
 }

@@ -5,6 +5,17 @@
   }
 }
 
+@media (max-width: 1285px) {
+  .s7-item {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .s7-ngs-card__text {
+    padding-right: 2px;
+    box-sizing: border-box;
+  }
+}
+
 
 
 @media (max-width: 1200px) {
